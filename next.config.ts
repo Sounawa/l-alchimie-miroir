@@ -6,8 +6,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
-  // GitHub Pages: uncomment and set if deploying to username.github.io/repo-name/
-  // basePath: '/l-alchimie-miroir',
+  basePath: '/l-alchimie-miroir',
 };
 
 export default nextConfig;
