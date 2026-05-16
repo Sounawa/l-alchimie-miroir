@@ -2,14 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/l-alchimie-miroir',
-  images: {
-    unoptimized: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
+  // GitHub Pages: uncomment and set if deploying to username.github.io/repo-name/
+  // basePath: '/l-alchimie-miroir',
 };
 
 export default nextConfig;
